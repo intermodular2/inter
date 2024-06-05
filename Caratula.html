@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Intermodular</title>
+</head>
+<html>
+<head>
+    <title>Soporte Técnico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: rgb(29, 240, 205); 
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .menu-item {
+            margin: 1em;
+        }
+    </style>
+</head>
+<body>
+<p style="text-align: center;">Soporte Tecnico y Diseño web</p>
+<b>Datos informativos</b>
+    <form action="registrardatos.php" method="post">
+        Ingrese su nombre y apellido:
+        <input type="text" name="nombre" size="20">
+        <br>
+    </form>
+    <hr>
+    <!--Forma con botones de radio-->
+    <br>
+    <form action="briansolis478@gmail.com" method="post" enctype="text/plain" name="ejemplo_formulario"> Genero<input type="Radio" name="genero checked" value="Mujer" checked>Mujer<input type="radio" name="genero checked" value="Hombre">Hombre</form>
+    <form action="briansolis478@gmail.com" method="post" enctype="text/plain" name="checkbox">
+        Curso:
+        <input type="checkbox" name="cine" value="Ciencias">Ciencias
+        <input type="checkbox" name="cine" value="Informatica">Informatica
+        <input type="checkbox" name="cine" value="Contabilidad">Contabilidad
+    </form>
+    <form action="briansolis478@gmail.com" method="post" enctype="text/plain" name="checkbox">
+        Paralelo:
+        <input type="checkbox" name="cine" value="A">A
+        <input type="checkbox" name="cine" value="B">B
+        <input type="checkbox" name="cine" value="C">C
+    </form>
+    <hr>
+   <ul class="menu">
+        <li class="menu-item"><a href="file:///F:/Proyecto%20intermodular/Inicio.html">Inicio</a></li>
+    </ul>
+    <div id="inicio">
+        <p style="text-align: center;">Presione inicio para empezar</p>
+        <p style="text-align: center;">Proyecto de: Jordy Chicaiza y Brian Solis</p>
+    </div>
+<div style="position: sticky;text-align: center;">
+    <img srcset="images\caratulacompu.jpg">
+</div>
+</body>
+</html>
